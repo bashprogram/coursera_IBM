@@ -8,3 +8,7 @@ function calculateArea() {
     document.getElementById('result').innerText = `The area of the rectangle is: ${area}`;
 }
 
+function calculateCost() {
+    Item1 = parseFloat(document.getElementById('Item1').value);
+    document.getElementById('Total').innerText = Item1;
+}
